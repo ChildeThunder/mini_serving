@@ -1,0 +1,28 @@
+# 编译构建目录
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 编译产出
+*.o
+*.a
+*.so
+*.out
+
+# IDE
+.vscode/
+.idea/
+
+# 日志、临时文件
+*.log
+*.tmp
+
+# Executable files generated in the project root
+/epoll_basic_demo
+/epoll_echo_demo
+/framed_tcp_demo
+/http_server_demo
+/socket_demo
+/tcp_accept_demo
